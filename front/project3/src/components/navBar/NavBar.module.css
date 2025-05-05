@@ -1,0 +1,64 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #292929;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.navBarList {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+}
+
+.navBarItem {
+    color: white;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+}
+
+.navBarItem:hover {
+    color: #af8c47;
+    text-decoration: underline;
+}
+
+.navBarItem a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.loginBox {
+    background-color: #292929;
+    padding: 5px 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.loginBox:hover {
+    background-color: #555;
+    
+}
+
+.loginText {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.loginText:hover {
+    color: #af8c47;
+}
+
+.navBar button {
+    background: none;
+    border: none;     /* Elimina cualquier borde predeterminado */
+    padding: 0;
+    text-decoration: underline
+}

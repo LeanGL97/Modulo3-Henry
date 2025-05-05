@@ -1,0 +1,19 @@
+.cancelButton{
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 30px;
+    margin-bottom:0px;
+    background-color: #292929;
+    color: white;
+    font-size: 28px;
+    border: 2px solid none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: 0 4px 6px #af8c47;
+  }
+
+  .cancelButton:active {
+    transform: scale(0.80);
+    background-color: #af8c47; 
+  }

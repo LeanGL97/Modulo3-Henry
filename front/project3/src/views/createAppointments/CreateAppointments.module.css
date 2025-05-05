@@ -1,0 +1,83 @@
+.formCreate{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);;
+    background-color: #292929;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #af8c47;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.formCreate h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.formCreate div {
+    margin-bottom: 10px;
+}
+
+.formCreate label{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.formCreate input {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #af8c47;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.formCreate button {
+    width: 25%; 
+    padding: 10px; 
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #292929;
+    color: white;
+    font-size: 18px;
+    border: 2px solid none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: 0 4px 6px #af8c47
+}
+
+.formCreate h1:hover {
+    color: #af8c47;
+}
+
+.formCreate input:hover {
+    box-shadow: 0 4px 6px #af8c47;
+}
+
+.formCreate input:focus {
+    outline: none;
+    border-color: #af8c47;
+    box-shadow: 0 0 5px #ddb25b;
+}
+
+.formCreate button:active {
+    transform: scale(0.80);
+    background-color: #af8c47; 
+}
+
+.link {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+    display: flex;
+}
+
+.link:hover {
+    color: #af8c47;
+}

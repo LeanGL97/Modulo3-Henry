@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #292929;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.text{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}

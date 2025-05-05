@@ -1,0 +1,61 @@
+.text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  ;
+  background-color: #292929;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #292929;
+  border-radius: 10px;
+}
+
+.card {
+  width: 80%;
+  max-width: 400px;
+  border: 8px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px #af8c47;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-align: justify;
+}
+
+.createButton {
+  width: 50%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  background-color: #292929;
+  color: white;
+  font-size: 38px;
+  border: 2px solid none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', sans-serif;
+  box-shadow: 0 4px 6px #af8c47;
+}
+
+.createButton:active {
+  transform: scale(0.80);
+  background-color: #af8c47;
+}
+
+.res {
+  font-family: 'Bebas Neue', sans-serif;
+}
